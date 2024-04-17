@@ -4,7 +4,9 @@
 #include <iostream>
 int EnterNumberA()
 {
-    
+    int num_a;
+    std::cin >> num_a;
+    return num_a;
 }
 
 int EnterNumberB()
