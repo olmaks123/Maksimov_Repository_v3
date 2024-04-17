@@ -9,7 +9,9 @@ int EnterNumberA()
 
 int EnterNumberB()
 {
-    
+    int num_b;
+    std::cin >> num_b;
+    return num_b;
 }
 
 int EnterNumberC()
