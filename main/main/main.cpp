@@ -14,7 +14,10 @@ int EnterNumberB()
 
 int EnterNumberC()
 {
-    
+    int num_c;
+    std::cin >> num_c;
+    if (num_c == 0) num_c = 1;
+    return num_c;
 }
 
 int Ostatok(int num_a,int num_b,int num_c)
