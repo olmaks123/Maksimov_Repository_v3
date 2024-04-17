@@ -24,7 +24,9 @@ int Ostatok(int num_a,int num_b,int num_c)
 
 int CelayaChast(int num_a, int num_b, int num_c)
 {
-
+    int celch;
+    celch = (num_a + num_b) / (num_c);
+    std::cout << celch;
 }
 
 int main()
