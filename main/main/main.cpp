@@ -4,22 +4,31 @@
 #include <iostream>
 int EnterNumberA()
 {
-    
+    int num_a;
+    std::cin >> num_a;
+    return num_a;
 }
 
 int EnterNumberB()
 {
-    
+    int num_b;
+    std::cin >> num_b;
+    return num_b;
 }
 
 int EnterNumberC()
 {
-    
+    int num_c;
+    std::cin >> num_c;
+    if (num_c == 0) num_c = 1;
+    return num_c;
 }
 
 int Ostatok(int num_a,int num_b,int num_c)
 {
-
+    int ostk;
+    ostk = (num_a + num_b) % (num_c);
+    std::cout << ostk;
 }
 
 int CelayaChast(int num_a, int num_b, int num_c)
