@@ -4,12 +4,16 @@
 #include <iostream>
 int EnterNumberA()
 {
-    
+    int num_a;
+    std::cin >> num_a;
+    return num_a;
 }
 
 int EnterNumberB()
 {
-    
+    int num_b;
+    std::cin >> num_b;
+    return num_b;
 }
 
 int EnterNumberC()
